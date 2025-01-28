@@ -1,0 +1,49 @@
+.row {
+    height: 120px;
+    margin-right: 0;
+    margin-left: 0;
+}
+.wrapper {
+    border: 5px solid black;
+}
+.col {
+    padding: 15px;
+}
+.checker-black {
+    background-image: url(checker-black.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+}
+.checker-white {
+    background-image: url(checker-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+}
+.bg-border {
+    background-color: rgb(160, 80, 11) !important;
+    font-size: 24px;
+    color: #fff;
+}
+.text-border {
+    color:  rgb(160, 80, 11) !important;
+}
+.col-bottom {
+    align-content: end;
+    text-align: center;
+}
+.col-right {
+    align-content: center;
+    text-align: end;
+}
+.col-top {
+    align-content: flex-start;
+    text-align: center;
+}
+.col-left {
+    align-content: center;
+    text-align: start;
+}
